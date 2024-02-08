@@ -1,0 +1,21 @@
+package com.poc.crud.helper;
+
+public class ResponseMessage {
+    private String message;
+
+    public ResponseMessage(String message) {
+        this.message = message;
+    }
+
+    public ResponseMessage() {
+        super();
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}
